@@ -15,35 +15,35 @@ export const Projects = () => {
   const projects1 = [
     {
       title: "Expense Tracker",
-      description: "----Expense Tracker made with React",
+      description: "---Expense Tracker made with React",
       imageUrl: ExpenseTracker,
     },
     {
       title: "Snake Game",
-      description: "----Snake made with JS and HTML5 Canvas",
+      description: "---Snake made with JS and HTML5 Canvas",
       imageUrl: snakeGame,
       url: "http://anthonywoodworth.huskisites.com/spec%20apps/snakge/",
     },
     {
       title: "Space Invaders Game",
-      description: "-----Space Invaders",
+      description: "---Space Invaders",
       imageUrl: spaceSlappies,
       url: "http://anthonywoodworth.huskisites.com/spec%20apps/space%20invaders/",
     },
     {
       title: "Keyboard",
-      description: "----Fun little keyboard",
+      description: "---Fun little keyboard",
       imageUrl: keyboard,
     },
     {
       title: "Message Site",
-      description: "----Basic message board made with React",
+      description: "---Basic message board made with React",
       imageUrl: quote,
       url: "https://quote-site-14461.web.app/quotes",
     },
     {
       title: "First Portfolio HTML CSS",
-      description: "----I've come so far ;)",
+      description: "---I've come so far ;)",
       imageUrl: firstPort,
     },
   ];
@@ -57,12 +57,12 @@ export const Projects = () => {
     },
     {
       title: "Location",
-      description: "--Location app made in RN & SQLite",
+      description: "---Location app made in RN & SQLite",
       imageUrl: location,
     },
     {
       title: "Deep Quotes",
-      description: "---Deep Quote generator",
+      description: "---Deep Quote generator, shares to Twitter",
       imageUrl: deepQuotes,
       url: "https://expo.dev/@awoodworth554/deep-quotes?serviceType=classic&distribution=expo-go",
     },
@@ -73,7 +73,6 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>A taste of my Projects</h2>
-            <p>Some of my favorite Projects I've worked on lately</p>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav
                 variant="pills"
@@ -81,11 +80,11 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Taste of my Projects</Nav.Link>
+                  <Nav.Link eventKey="first">Some React & JS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">
-                    A couple React Native projects
+                    Some React Native
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

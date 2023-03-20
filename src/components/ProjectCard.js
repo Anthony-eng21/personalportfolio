@@ -14,7 +14,7 @@ export const ProjectCard = ({ title, description, imageUrl, url }) => {
             Link to Project
           </a>
         )}
-        {!url && <p>wasn't deployed</p>}
+        {!url && <p>hasn't been deployed</p>}
       </div>
     </Col>
   );

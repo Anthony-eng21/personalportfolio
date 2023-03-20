@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import github from "../assets/img/icons8-github-50.png"
-import Sasuke from "../assets/img/sasukejfal.jpg"
+import Sasuke from "../assets/img/port-photo.jpg"
 
 import React, { useEffect, useState } from "react";
 
