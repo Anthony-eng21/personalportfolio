@@ -347,6 +347,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
+.noProj {
+font-size: 13px;
+text-align: "center";
+margin-top: 20px;
+}
+.prjLink {
+  text-align: "center";
+  font-weight: "bolder";
+  justify-content: "center";
+  margin: 1rem;
+}
 .project {
   padding: 80px 0;
   position: relative;

@@ -9,6 +9,12 @@ export const ProjectCard = ({ title, description, imageUrl, url }) => {
           <h4>{title}</h4>
           <span className="wrap">{description}</span>
         </div>
+        {url && (
+          <a className="prjLink" href={url}>
+            Link to Project
+          </a>
+        )}
+        {!url && <p>wasn't deployed</p>}
       </div>
     </Col>
   );

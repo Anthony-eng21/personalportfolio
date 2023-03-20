@@ -1,13 +1,13 @@
 // import suicideBoys from "../assets/img/Screenshot 2023-03-14 044050.png";
-import ExpenseTracker from "../assets/img/Expense-tracker.png"
+import ExpenseTracker from "../assets/img/Expense-tracker.png";
 import haileysbot from "../assets/img/haileysbot.PNG";
 import snakeGame from "../assets/img/snakegame.png";
 import spaceSlappies from "../assets/img/spaceinvaders.png";
-import deepQuotes from "../assets/img/deep-quotes.PNG"
+import deepQuotes from "../assets/img/deep-quotes.PNG";
 import location from "../assets/img/Location.PNG";
 import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
-import quote from "../assets/img/quotes site.png"
-import firstPort from "../assets/img/FirstPort.png"
+import quote from "../assets/img/quotes site.png";
+import firstPort from "../assets/img/FirstPort.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
@@ -20,15 +20,15 @@ export const Projects = () => {
     },
     {
       title: "Snake Game",
-      description:
-        "----Snake made with JS and HTML5 Canvas",
+      description: "----Snake made with JS and HTML5 Canvas",
       imageUrl: snakeGame,
+      url: "http://anthonywoodworth.huskisites.com/spec%20apps/snakge/",
     },
     {
       title: "Space Invaders Game",
-      description:
-        "-----Space Invaders",
+      description: "-----Space Invaders",
       imageUrl: spaceSlappies,
+      url: "http://anthonywoodworth.huskisites.com/spec%20apps/space%20invaders/",
     },
     {
       title: "Keyboard",
@@ -36,34 +36,35 @@ export const Projects = () => {
       imageUrl: keyboard,
     },
     {
-        title: "Message Site",
-        description: "----Basic message board made with React",
-        imageUrl: quote,
-      },
-      {
-        title: "First Portfolio HTML CSS",
-        description: "----I've come so far ;)",
-        imageUrl: firstPort,
-      },
+      title: "Message Site",
+      description: "----Basic message board made with React",
+      imageUrl: quote,
+      url: "https://quote-site-14461.web.app/quotes",
+    },
+    {
+      title: "First Portfolio HTML CSS",
+      description: "----I've come so far ;)",
+      imageUrl: firstPort,
+    },
   ];
 
   const projects2 = [
     {
       title: "Hailey's Bot",
-      description:
-        "---Fun chat bot I made for my girlfriend",
+      description: "---Fun chat bot I made for my girlfriend",
       imageUrl: haileysbot,
+      url: "https://expo.dev/@awoodworth554/haileys-bot",
     },
     {
       title: "Location",
-      description:
-        "--Location app made in RN & SQLite",
+      description: "--Location app made in RN & SQLite",
       imageUrl: location,
     },
     {
       title: "Deep Quotes",
       description: "---Deep Quote generator",
       imageUrl: deepQuotes,
+      url: "https://expo.dev/@awoodworth554/deep-quotes?serviceType=classic&distribution=expo-go",
     },
   ];
   return (
