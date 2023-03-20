@@ -1,8 +1,9 @@
-import suicideBoys from "../assets/img/Screenshot 2023-03-14 044050.png";
+// import suicideBoys from "../assets/img/Screenshot 2023-03-14 044050.png";
+import ExpenseTracker from "../assets/img/Expense-tracker.png"
 import haileysbot from "../assets/img/haileysbot.PNG";
 import snakeGame from "../assets/img/snakegame.png";
 import spaceSlappies from "../assets/img/spaceinvaders.png";
-import guessingGame from "../assets/img/guessinggame.PNG";
+import deepQuotes from "../assets/img/deep-quotes.PNG"
 import location from "../assets/img/Location.PNG";
 import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
 import quote from "../assets/img/quotes site.png"
@@ -13,9 +14,9 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
   const projects1 = [
     {
-      title: "$uicide Boy$",
-      description: "----$uicide Boys Tic Tac Toe",
-      imageUrl: suicideBoys,
+      title: "Expense Tracker",
+      description: "----Expense Tracker made with React",
+      imageUrl: ExpenseTracker,
     },
     {
       title: "Snake Game",
@@ -35,8 +36,8 @@ export const Projects = () => {
       imageUrl: keyboard,
     },
     {
-        title: "Quote Site",
-        description: "-----Quote Site made with React",
+        title: "Message Site",
+        description: "----Basic message board made with React",
         imageUrl: quote,
       },
       {
@@ -50,7 +51,7 @@ export const Projects = () => {
     {
       title: "Hailey's Bot",
       description:
-        "---Fun chat model I made for my girlfriend",
+        "---Fun chat bot I made for my girlfriend",
       imageUrl: haileysbot,
     },
     {
@@ -60,9 +61,9 @@ export const Projects = () => {
       imageUrl: location,
     },
     {
-      title: "Guessing Game",
-      description: "---Guessing game made in React Native",
-      imageUrl: guessingGame,
+      title: "Deep Quotes",
+      description: "---Deep Quote generator",
+      imageUrl: deepQuotes,
     },
   ];
   return (
@@ -83,7 +84,7 @@ export const Projects = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">
-                    Some of my favorite React Native projects
+                    A couple React Native projects
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
