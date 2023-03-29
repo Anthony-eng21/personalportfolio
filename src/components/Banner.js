@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0); //loop state for initializing our work 'animation'
   const [isDeleting, setIsDeleting] = useState(false); //is the word being deleted or initialized? state
-  const toRate = ["Web Developer", "Mobile Developer", "'10X' Dev 😆", "Entrepeneur"];
+  const toRate = ["Web Developer", "Mobile Developer", "'10X' Dev 😆🍀!", "Entrepeneur"];
   const [text, setText] = useState(""); // set each letter like w then e then b etc in our arr
   const [delta, setDelta] = useState(300 - Math.random() * 100); //how fast one letter comes after the first one is typed
   const period = 2000; //check the duration of each word changing
@@ -53,7 +53,7 @@ export const Banner = () => {
               <br />
               <span className="wrap">{text}</span>
               <p>
-                I'm a JavaScript + Web & Mobile developer with focus on fullstack applications!
+                Hello, I'm a Web & Mobile developer with focus on fullstack applications!
               </p>
             </h1>
           </Col>

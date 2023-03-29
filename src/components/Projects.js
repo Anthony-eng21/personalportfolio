@@ -12,7 +12,7 @@ import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
-  const projects1 = [
+  const projects2 = [
     {
       title: "Expense Tracker",
       description: "---Expense Tracker made with React",
@@ -48,7 +48,7 @@ export const Projects = () => {
     },
   ];
 
-  const projects2 = [
+  const projects1 = [
     {
       title: "Hailey's Bot",
       description: "---Fun chat bot I made for my girlfriend",
@@ -80,11 +80,11 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Some React & JS</Nav.Link>
+                  <Nav.Link eventKey="first">Some React Native</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">
-                    Some React Native
+                    Some React & JS
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
