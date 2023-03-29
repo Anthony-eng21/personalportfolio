@@ -10,6 +10,7 @@ import quote from "../assets/img/quotes site.png";
 import firstPort from "../assets/img/FirstPort.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import github from "../assets/img/icons8-github-50.png"
 
 export const Projects = () => {
   const projects2 = [
@@ -83,9 +84,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="first">Some React Native</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">
-                    Some React & JS
-                  </Nav.Link>
+                  <Nav.Link eventKey="second">Some React & JS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">More on my Github</Nav.Link>
@@ -109,9 +108,16 @@ export const Projects = () => {
                 <Tab.Pane eventKey="third">
                   <Row>
                     {
-                      <a href="https://github.com/Anthony-eng21?tab=repositories">
-                        Github
-                      </a>
+                      <div style={{flexDirection: "row"}}>
+                        <a href="https://github.com/Anthony-eng21?tab=repositories">
+                          Tony's Github
+                        </a>
+                        <div className="social-icon">
+                          <a href="https://github.com/Anthony-eng21?tab=repositories">
+                            <img src={github} alt="github account" />
+                          </a>
+                        </div>
+                      </div>
                     }
                   </Row>
                 </Tab.Pane>
