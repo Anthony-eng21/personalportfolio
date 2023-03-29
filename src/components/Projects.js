@@ -8,6 +8,7 @@ import location from "../assets/img/Location.PNG";
 import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
 import quote from "../assets/img/quotes site.png";
 import firstPort from "../assets/img/FirstPort.png";
+import flappy from "../assets/img/flappy.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import github from "../assets/img/icons8-github-50.png"
@@ -38,7 +39,7 @@ export const Projects = () => {
     },
     {
       title: "Message Site",
-      description: "---Basic message board made with React",
+      description: "---Basic message board made with React.",
       imageUrl: quote,
       url: "https://quote-site-14461.web.app/quotes",
     },
@@ -46,6 +47,12 @@ export const Projects = () => {
       title: "First Portfolio HTML CSS",
       description: "---I've come so far ;)",
       imageUrl: firstPort,
+    },
+    {
+      title: "Flappy Bird Clone",
+      description: "---Flappy Bird school project.",
+      imageUrl: flappy,
+      url: "https://flappy-bread-akst5zxdf-anthony-eng21.vercel.app/",
     },
   ];
 
