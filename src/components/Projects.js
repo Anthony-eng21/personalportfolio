@@ -52,7 +52,7 @@ export const Projects = () => {
       title: "Flappy Bird Clone",
       description: "---Flappy Bird school project.",
       imageUrl: flappy,
-      url: "https://flappy-bread-akst5zxdf-anthony-eng21.vercel.app/",
+      url: "https://flappy-bread-git-main-anthony-eng21.vercel.app/",
     },
   ];
 
