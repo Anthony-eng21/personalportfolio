@@ -80,7 +80,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>A taste of my Projects</h2>
+            <h2>Some Projects of Mine</h2>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav
                 variant="pills"
@@ -88,14 +88,15 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Some React Native</Nav.Link>
+                  <Nav.Link eventKey="first">React Native</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Some React & JS</Nav.Link>
+                  <Nav.Link eventKey="second">React & JS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">More on my Github</Nav.Link>
                 </Nav.Item>
+                
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
@@ -124,6 +125,7 @@ export const Projects = () => {
                             <img src={github} alt="github account" />
                           </a>
                         </div>
+                        <p>More fullstack and backend projects too in my repos on github^</p>
                       </div>
                     }
                   </Row>
