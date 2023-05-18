@@ -106,6 +106,55 @@ p.danger {
   object-fit: cover;
 }
 
+/* Styles for responsive icon menu */
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: relative;
+  }
+  
+  .navbar .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .navbar .menu-toggle:before {
+    content: "\f0c9";
+    font-family: FontAwesome;
+  }
+  
+  .navbar .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+  }
+  
+  .navbar .menu.show {
+    display: block;
+  }
+  
+  .navbar .menu li {
+    display: block;
+  }
+  
+  .navbar .menu li a {
+    display: block;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+  }
+}
+
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -151,7 +200,7 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgba(217, 217, 217, 0.339);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -343,15 +392,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @keyframes updown {
   0% {
-    transform: translateY(-20px);
+    transform: translateY(-40px);
   }
 
   50% {
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
 
   100% {
-    transform: translateY(-20px);
+    transform: translateY(-40px);
   }
 }
 
@@ -428,7 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
@@ -459,10 +508,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
-  padding: 17px 0;
+  padding: 30px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;

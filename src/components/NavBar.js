@@ -35,10 +35,10 @@ export const NavBar = () => {
         <Navbar.Brand href="#home">
           <img className="sasuke" src={Sasuke} alt="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggle-icon"></span>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" >
+          <span className="navbar-toggle-icon">💣</span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        {/* <Navbar.Collapse id="basic-navbar-nav"> */}
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
@@ -70,7 +70,7 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.instagram.com/mr._.sillifrog/">
+              <a href="https://www.instagram.com/anthonyw1213/">
                 <img src={navIcon3} alt="instagram account" />
               </a>
             </div>
@@ -82,7 +82,7 @@ export const NavBar = () => {
               </a>
             </div>
           </span>
-        </Navbar.Collapse>
+        {/* </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );

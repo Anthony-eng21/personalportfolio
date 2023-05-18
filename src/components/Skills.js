@@ -30,7 +30,7 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
+              <h2>Skills & Toolset</h2>
               <p>
                 JS, TS, Node/Express, React, React Native, SQL, PHP, MySQL,
                 MongoDb +
@@ -42,15 +42,15 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="" />
+                  <h5>Communication</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="" />
                   <h5>Mobile Development</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>Team Work</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="" />
@@ -63,6 +63,42 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter1} alt="" />
                   <h5>Backend</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>OOP</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>JavaScript</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>React.JS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>React Native</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>Express.JS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>NoSQL Databases</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>PHP</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>Relational Databases</h5>
                 </div>
               </Carousel>
             </div>
