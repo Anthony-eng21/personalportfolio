@@ -104,7 +104,9 @@ export const Projects = () => {
                 </Nav.Item>
                 
               </Nav>
+              
               <Tab.Content>
+
                 <Tab.Pane eventKey="first">
                   <Row>
                     {projects1.map((project, index) => {
@@ -119,6 +121,8 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
+
+                {/* TODO FIX THIS FOR MOBILE  */}
                 <Tab.Pane eventKey="third">
                   <Row>
                     {
