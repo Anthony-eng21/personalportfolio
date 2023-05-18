@@ -35,8 +35,8 @@ export const NavBar = () => {
         <Navbar.Brand href="#home">
           <img className="sasuke" src={Sasuke} alt="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" >
-          <span className="navbar-toggle-icon">💣</span>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginRight: 25}} >
+          <span className="navbar-toggle-icon"></span>
         </Navbar.Toggle>
         {/* <Navbar.Collapse id="basic-navbar-nav"> */}
           <Nav className="me-auto">
