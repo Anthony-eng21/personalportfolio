@@ -5,9 +5,9 @@ import snakeGame from "../assets/img/snakegame.png";
 import spaceSlappies from "../assets/img/spaceinvaders.png";
 import deepQuotes from "../assets/img/deep-quotes.PNG";
 import location from "../assets/img/Location.PNG";
-import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
+// import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
 import quote from "../assets/img/quotes site.png";
-// import firstPort from "../assets/img/FirstPort.png";
+import firstPort from "../assets/img/FirstPort.png";
 import flappy from "../assets/img/flappy.png";
 import rnExpenseProjImg from "../assets/img/expensesrnapp.PNG";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
@@ -18,40 +18,40 @@ export const Projects = () => {
   const projects2 = [
     {
       title: "Expense Tracker",
-      description: "---Expense Tracker made with React",
+      description: "Expense Tracker. Never misbudget your bills again! Very fun and pretty UI on this project.",
       imageUrl: ExpenseTracker,
     },
     {
       title: "Message Site",
-      description: "---Message board for quotes made in React.",
+      description: "Message board for Inspirational quotes. Share one of your favorite quotes now! Made in React and many other technologies. use it today!",
       imageUrl: quote,
       url: "https://quote-site-14461.web.app/quotes",
     },
     {
+      title: "First Portfolio HTML CSS",
+      description: "BIG difference between the two. Granted only made in HTML and CSS it was the first project I was ever assigned.",
+      imageUrl: firstPort,
+    },
+    {
       title: "Snake",
-      description: "---Snake made in JS and HTML5 Canvas",
+      description: "Snake made in JS and HTML5 Canvas. Super fun and addicting. Feel free to play!",
       imageUrl: snakeGame,
       url: "http://anthonywoodworth.huskisites.com/spec%20apps/snakge/",
     },
     {
       title: "Space Invaders Clone",
-      description: "---Space Invaders. Single level game loop.",
+      description: "Space Invaders. Single level game loop with axial hit-box detection. Feel free to play!",
       imageUrl: spaceSlappies,
       url: "http://anthonywoodworth.huskisites.com/spec%20apps/space%20invaders/",
     },
-    {
-      title: "Keyboard",
-      description: "---Fun little keyboard",
-      imageUrl: keyboard,
-    },
     // {
-    //   title: "First Portfolio HTML CSS",
-    //   description: "---",
-    //   imageUrl: firstPort,
+    //   title: "Keyboard",
+    //   description: "Fun little keyboard",
+    //   imageUrl: keyboard,
     // },
     {
       title: "Flappy Bird Clone",
-      description: "---Flappy Bird Clone project I worked on in school.",
+      description: "Flappy Bird Clone. Site and photo are different due to updates. Feel free to play!",
       imageUrl: flappy,
       url: "https://flappy-bread-git-main-anthony-eng21.vercel.app/",
     },
@@ -60,25 +60,26 @@ export const Projects = () => {
   const projects1 = [
     {
       title: "Hailey's Bot",
-      description: "---chat bot made in React Native using an OpenAI Rest endpoint.",
+      description: "Introducing a remarkable Chat Bot developed with React Native and Axios. Utilizing a powerful ChatGPT REST endpoint provided by OpenAI this bot can give you very intuitive responses and facts. Seamlessly integrated into the app. Users can effortlessly exchange messages, and the bot generates prompt responses on the fly. With its intuitive interface and smooth integration, this Chat Bot opens up new possibilities for dynamic responses and my on the go studying habits.",
       imageUrl: haileysbot,
       url: "https://expo.dev/@awoodworth554/haileys-bot",
+      // url: "https://github.com/Anthony-eng21/Tony-s-chatbot",
     },
     {
       title: "Location",
-      description: "---Location app made using React Native, Context, and, SQLite",
+      description: "The Location app is developed with React Native, Context, and SQLite. By harnessing the device's GPS capabilities, it provides precise tracking of the user's current location. With the app's intuitive interface, users can effortlessly visualize their real-time location on an interactive map. Additionally, they have the convenience of exploring and discovering nearby places of interest, enhancing their overall navigation experience.",
       imageUrl: location,
     },
     {
-      title: "Deep Quotes",
-      description: "---Deep Quote generator, option to share on Twitter account",
-      imageUrl: deepQuotes,
-      url: "https://expo.dev/@awoodworth554/deep-quotes?serviceType=classic&distribution=expo-go",
+      title: "Expense Tracker",
+      description: "The Expense Tracker is a sleek and efficient mobile app built with React Native. It simplifies expense management with its intuitive user interface and powerful features. Leveraging the Context API, the app ensures smooth data flow and seamless user interactions. The robust Firebase backend provides secure and reliable data storage, while Axios handles seamless HTTP requests. Experience hassle-free expense tracking with this elegant and user-friendly app.",
+      imageUrl: rnExpenseProjImg,
     },
     {
-      title: "Expense Tracker",
-      description: "---Expense Tracker, nice flow to this UI.",
-      imageUrl: rnExpenseProjImg,
+      title: "Deep Quotes",
+      description: "Deep Quote Generator. With the option to share on Twitter account or if you like on my Quote Sharing site! Built with React Native. This app consumes a REST endpoint for the quote generation and many of the responses are quite profound.",
+      imageUrl: deepQuotes,
+      url: "https://expo.dev/@awoodworth554/deep-quotes?serviceType=classic&distribution=expo-go",
     },
   ];
   return (

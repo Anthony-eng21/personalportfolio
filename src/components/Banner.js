@@ -53,7 +53,7 @@ export const Banner = () => {
               <br />
               <span className="wrap">{text}</span>
               <p style={{marginTop: 10}}>I specialize in creating full-stack applications for web and mobile platforms.
-              With a passion for clean code and intuitive user experiences, I want to bring your ideas to life.</p>
+              With a passion for clean code and intuitive user experiences, I want to bring your ideas to life. When I'm not coding, you can often find me skateboarding and hiking in my free time.</p>
             </h1>
           </Col>
           <Col xs={12} md={6} xl={5}>
