@@ -30,7 +30,7 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills & Toolset</h2>
+              <h2>Some of My Skills</h2>
               <p>
                 JS, TS, Node/Express, React, React Native, SQL, PHP, MySQL,
                 MongoDb +
