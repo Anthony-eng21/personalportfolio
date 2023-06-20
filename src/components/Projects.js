@@ -14,7 +14,7 @@ import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import github from "../assets/img/icons8-github-50.png";
 import sb from "../assets/img/suicideboy.png";
-import RapNow from "../assets/img/rapNow.jpg";
+import RapNow from "../assets/img/kahoutsxno.jpg";
 
 export const Projects = () => {
   const projects2 = [
@@ -118,10 +118,10 @@ export const Projects = () => {
                   <Nav.Link eventKey="first">React Native</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">React + JS</Nav.Link>
+                  <Nav.Link eventKey="second">React & JS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">My Github</Nav.Link>
+                  <Nav.Link eventKey="third">Github</Nav.Link>
                 </Nav.Item>
               </Nav>
 

@@ -32,8 +32,8 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Some of My Skills</h2>
               <p>
-                JS, TS, Node/Express, React, React Native, SQL, PHP, MySQL,
-                MongoDb +
+                JS, TS, PHP, Node/Express, React, React Native, SQL, MySQL,
+                MongoDb, Mongoose(ODM) +
               </p>
               <Carousel
                 responsive={responsive}
