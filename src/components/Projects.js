@@ -5,6 +5,7 @@ import snakeGame from "../assets/img/snakegame.png";
 import spaceSlappies from "../assets/img/spaceinvaders.png";
 import deepQuotes from "../assets/img/deep-quotes.PNG";
 import location from "../assets/img/Location.PNG";
+import Chat_RNC from "../assets/img/React_Nodejs_CHAT_1.jpg"
 // import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
 import quote from "../assets/img/quotes site.png";
 import firstPort from "../assets/img/FirstPort.png";
@@ -25,7 +26,13 @@ export const Projects = () => {
       imageUrl: ExpenseTracker,
     },
     {
-      title: "Message Site",
+      title: "Real Time Messaging App",
+      description:
+        "Create groups and talk with your friends. Built in React, Node/Express and with the flexible Chat Engine library",
+      imageUrl: Chat_RNC,
+    },
+    {
+      title: "Message Board",
       description:
         "Message board for Inspirational quotes. Share one of your favorite quotes now! Made in React and many other technologies. use it today!",
       imageUrl: quote,
@@ -55,7 +62,7 @@ export const Projects = () => {
       title: "Tic Tac Toe",
       description: "Game in honor of $B",
       imageUrl: sb,
-      url: "http://anthonywoodworth.huskisites.com/spec%20apps/%24uicide%20Boy%20gurl/tic%20tac%20toe/"
+      url: "http://anthonywoodworth.huskisites.com/spec%20apps/%24uicide%20Boy%20gurl/tic%20tac%20toe/",
     },
     {
       title: "Flappy Bird Clone",
@@ -70,7 +77,7 @@ export const Projects = () => {
     {
       title: "Hailey's Bot",
       description:
-        "Introducing a remarkable Chat Bot developed with React Native and Axios. Utilizing a powerful ChatGPT REST endpoint provided by OpenAI this bot can give you very intuitive responses and facts. Seamlessly integrated into the app. Users can effortlessly exchange messages, and the bot generates prompt responses on the fly. With its intuitive interface and smooth integration, this Chat Bot opens up new possibilities for dynamic responses and my on the go studying habits.",
+        "Introducing a remarkable Chat Bot developed with React Native and Axios. Utilizing a powerful ChatGPT REST endpoint provided by OpenAI this bot can give you very intuitive responses and facts. Seamlessly integrated into the app. Users can effortlessly exchange messages, and the bot generates prompt responses on the fly. With its intuitive interface and smooth integration.",
       imageUrl: haileysbot,
       url: "https://expo.dev/@awoodworth554/haileys-bot",
       // url: "https://github.com/Anthony-eng21/Tony-s-chatbot",
@@ -78,14 +85,14 @@ export const Projects = () => {
     {
       title: "RapNow!",
       description:
-        "Welcome to RapNow!, where you can unleash your creativity and improve your rap skills with our timer and beats! Whether you're a seasoned rapper or just starting out, our app provides a platform for you to practice and enhance your freestyle abilities. \n To enhance your freestyle experience, we've integrated a timer that synchronizes with the beat. As you start the timer, a well produced beat will play. Challenge yourself to deliver your best performance within the time limit and push your boundaries.",
+        "Welcome to RapNow!, where you can unleash your creativity and improve your rap skills with our timer and beats! Whether you're a seasoned rapper or just starting out, our app provides a platform for you to practice and enhance your freestyle abilities. As you start the timer, a well produced beat will play. Challenge yourself to deliver your best performance within the time limit and push your boundaries.",
       imageUrl: RapNow,
       url: "https://expo.dev/@awoodworth554/rapnow?serviceType=classic&distribution=expo-go",
     },
     {
       title: "Location",
       description:
-        "The Location app is developed with React Native, Context, and SQLite. By harnessing the device's GPS capabilities, it provides precise tracking of the user's current location. With the app's intuitive interface, users can effortlessly visualize their real-time location on an interactive map. Additionally, they have the convenience of exploring and discovering nearby places of interest, enhancing their overall navigation experience.",
+        "The Location app is developed with React Native, Context, and SQLite. By harnessing the device's GPS capabilities, it provides precise tracking of the user's current location. With the app's intuitive interface, users can effortlessly visualize their real-time location on an interactive map. Additionally, they have the convenience of exploring and discovering nearby places of interest.",
       imageUrl: location,
     },
     {
