@@ -15,7 +15,7 @@ import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import github from "../assets/img/icons8-github-50.png";
 import sb from "../assets/img/suicideboy.png";
-import RapNow from "../assets/img/kahoutsxno.jpg";
+import RapNow from "../assets/img/rapNow01.PNG";
 
 export const Projects = () => {
   const projects2 = [
@@ -28,7 +28,7 @@ export const Projects = () => {
     {
       title: "Real Time Messaging App",
       description:
-        "Create groups and talk with your friends. Built in React, Node/Express and with the flexible Chat Engine library",
+        "Create groups and talk with your friends. Built in React, Node/Express and with the flexible Chat Engine library.",
       imageUrl: Chat_RNC,
     },
     {
@@ -98,7 +98,7 @@ export const Projects = () => {
     {
       title: "Expense Tracker",
       description:
-        "The Expense Tracker is a sleek and efficient mobile app built with React Native. It simplifies expense management with its intuitive user interface and powerful features. Leveraging the Context API, the app ensures smooth data flow and seamless user interactions. The robust Firebase backend provides secure and reliable data storage, while Axios handles seamless HTTP requests. Experience hassle-free expense tracking with this elegant and user-friendly app.",
+        "The Expense Tracker is a sleek and efficient mobile app built with React Native. It simplifies expense management with its intuitive user interface and powerful features. Leveraging the Context API, the app ensures smooth data flow and seamless user interactions. The robust Firebase backend provides secure and reliable data storage, while Axios handles seamless HTTP requests.",
       imageUrl: rnExpenseProjImg,
     },
     {
@@ -122,13 +122,13 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">React Native</Nav.Link>
+                  <Nav.Link eventKey="first">Mobile Apps</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">React & JS</Nav.Link>
+                  <Nav.Link eventKey="second">Web Apps</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Github</Nav.Link>
+                  <Nav.Link eventKey="third">Le Github</Nav.Link>
                 </Nav.Item>
               </Nav>
 

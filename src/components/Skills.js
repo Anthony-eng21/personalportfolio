@@ -30,10 +30,10 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Some of My Skills</h2>
+              <h2>Coding Proficiencies</h2>
               <p>
-                JS, TS, PHP, Node/Express, React, React Native, SQL, MySQL,
-                MongoDb, Mongoose(ODM) +
+                JS, TS, PHP, C++, Node/Express.js, React.js, React Native, SQL, MySQL,
+                MongoDb, Mongoose(ODM), THREE.js +
               </p>
               <Carousel
                 responsive={responsive}
@@ -99,6 +99,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter1} alt="" />
                   <h5>Relational Databases</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="" />
+                  <h5>Package Managers</h5>
                 </div>
               </Carousel>
             </div>
