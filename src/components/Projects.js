@@ -5,7 +5,7 @@ import snakeGame from "../assets/img/snakegame.png";
 import spaceSlappies from "../assets/img/spaceinvaders.png";
 import deepQuotes from "../assets/img/deep-quotes.PNG";
 import location from "../assets/img/Location.PNG";
-import Chat_RNC from "../assets/img/React_Nodejs_CHAT_1.jpg"
+import Chat_RNC from "../assets/img/React_Nodejs_CHAT_1.jpg";
 // import keyboard from "../assets/img/Screenshot 2023-03-14 054816.png";
 import quote from "../assets/img/quotes site.png";
 import firstPort from "../assets/img/FirstPort.png";
@@ -16,9 +16,17 @@ import { ProjectCard } from "./ProjectCard";
 import github from "../assets/img/icons8-github-50.png";
 import sb from "../assets/img/suicideboy.png";
 import RapNow from "../assets/img/rapNow01.PNG";
+import PartyOn3D from "../assets/img/PartyOn-3D.jpg";
 
 export const Projects = () => {
   const projects2 = [
+    {
+      title: "PartyOn 3D",
+      description:
+        "Fun 3D scene dedicated to a fun project. Refresh the screen for the scale and position of the geometries to be random. PartyOn coming Soon...",
+      imageUrl: PartyOn3D,
+      url: "https://party-on3-d-text.vercel.app/",
+    },
     {
       title: "Expense Tracker",
       description:
@@ -32,17 +40,17 @@ export const Projects = () => {
       imageUrl: Chat_RNC,
     },
     {
+      title: "First Portfolio HTML CSS",
+      description:
+        "BIG difference between the two. Granted only made in HTML and CSS it was the first project I was ever assigned.",
+      imageUrl: firstPort,
+    },
+    {
       title: "Message Board",
       description:
         "Message board for Inspirational quotes. Share one of your favorite quotes now! Made in React and many other technologies. use it today!",
       imageUrl: quote,
       url: "https://quote-site-14461.web.app/quotes",
-    },
-    {
-      title: "First Portfolio HTML CSS",
-      description:
-        "BIG difference between the two. Granted only made in HTML and CSS it was the first project I was ever assigned.",
-      imageUrl: firstPort,
     },
     {
       title: "Snake",
