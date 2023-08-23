@@ -16,16 +16,16 @@ import { ProjectCard } from "./ProjectCard";
 import github from "../assets/img/icons8-github-50.png";
 import sb from "../assets/img/suicideboy.png";
 import RapNow from "../assets/img/rapNow01.PNG";
-import PartyOn3D from "../assets/img/PartyOn-3D.jpg";
+import TETRA from "../assets/img/TETRAMAFIA.jpg"
 
 export const Projects = () => {
   const projects2 = [
     {
-      title: "PartyOn 3D",
+      title: "TETRA MAFIA 3D",
       description:
-        "Fun 3D scene dedicated to a fun project. Refresh the screen for the scale and position of the geometries to be random. PartyOn coming Soon...",
-      imageUrl: PartyOn3D,
-      url: "https://party-on3-d-text.vercel.app/",
+        "Made this for Tetra Mafia. Checkout there music! Double tap on the scene to listen to their song '1995'.",
+      imageUrl: TETRA,
+      url: "https://tetra-3-d-ad.vercel.app/",
     },
     {
       title: "Expense Tracker",
