@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       title: "TETRA MAFIA 3D",
       description:
-        "Made this for Tetra Mafia. Checkout there music! Double tap on the scene to listen to their song '1995'.",
+        "Made this for 'Tetra Mafia'. Checkout their music! Double tap on the scene to listen to their song '1995'.",
       imageUrl: TETRA,
       url: "https://tetra-3-d-ad.vercel.app/",
     },
