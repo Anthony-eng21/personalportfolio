@@ -1,20 +1,11 @@
 import { Col } from "react-bootstrap";
+import { ProjectContent } from "./ProjectContent";
 
 export const ProjectCard = ({ title, description, imageUrl, url }) => {
   return (
     <Col sm={6} md={4}>
       <div className="proj-imgbx">
-        <img src={imageUrl} alt="project" />
-        <div className="proj-txt">
-          <h4>{title}</h4>
-          <span className="wrap">{description}</span>
-        </div>
-        {url && (
-          <a className="prjLink" href={url}>
-            Link to Project
-          </a>
-        )}
-        {!url && <p>hasn't been deployed</p>}
+        <ProjectContent title={title} description={description} imageUrl={imageUrl} url={url} />
       </div>
     </Col>
   );
